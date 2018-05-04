@@ -305,7 +305,7 @@ void BitcoinGUI::createActions()
     addressBookAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
     tabGroup->addAction(addressBookAction);
 
-    masternodeManagerAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Masternodes"), this);
+    masternodeManagerAction = new QAction(QIcon(":/icons/masternode"), tr("&Masternodes"), this);
     masternodeManagerAction->setToolTip(tr("Show Master Nodes status and configure your nodes."));
     masternodeManagerAction->setCheckable(true);
     tabGroup->addAction(masternodeManagerAction);
@@ -490,7 +490,7 @@ void BitcoinGUI::createToolBars()
 void BitcoinGUI::setClientModel(ClientModel *clientModel)
 {
     if(!fOnlyTor)
-    netLabel->setText("CLEARNET");
+    netLabel->setText("BAXUR NETWORK");
     else
     {
     if(!IsLimited(NET_TOR))
@@ -514,7 +514,7 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
 #endif
             if(trayIcon)
             {
-                trayIcon->setToolTip(tr("Baxur client") + QString(" ") + tr("[testnet]"));
+                trayIcon->setToolTip(tr("Baxur Wallet") + QString(" ") + tr("[testnet]"));
                 trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
                 toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
             }
@@ -596,7 +596,7 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("Baxur client"));
+    trayIcon->setToolTip(tr("Baxur Wallet"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -885,7 +885,8 @@ void BitcoinGUI::incomingTransaction(const QModelIndex & parent, int start, int 
                           tr("Date: %1\n"
                              "Amount: %2\n"
                              "Type: %3\n"
-                             "Address: %4\n")
+                             "Address: %4\n"
+                             "GET.KEEP.MULTIPLY!")
                           .arg(date)
                           .arg(BitcoinUnits::formatWithUnit(walletModel->getOptionsModel()->getDisplayUnit(), amount, true))
                           .arg(type)
