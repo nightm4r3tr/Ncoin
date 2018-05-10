@@ -1379,22 +1379,22 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
     
     if(nBestHeight >= 10001 && nBestHeight < 15001){
       nSubsidy = 30 * COIN;
-    } else if (nBestHeight >= 15001 && nBestHeight < 20001){
-      nSubsidy = 90 * COIN;
-    } else if (nBestHeight >= 20001 && nBestHeight < 40001){
-      nSubsidy = 120 * COIN;
+    } else if (nBestHeight >= 15001 && nBestHeight < 25001){
+      nSubsidy = 40 * COIN;
+    } else if (nBestHeight >= 25001 && nBestHeight < 40001){
+      nSubsidy = 60 * COIN;
     } else if (nBestHeight >= 40001 && nBestHeight < 60001){
-      nSubsidy = 360 * COIN;
+      nSubsidy = 80 * COIN;
     } else if (nBestHeight >= 60001 && nBestHeight < 80001){
-      nSubsidy = 540 * COIN;
-    } else if (nBestHeight >= 80001 && nBestHeight < 120001){
-      nSubsidy = 860 * COIN;
-    } else if (nBestHeight >= 120001 && nBestHeight < 160001){
-      nSubsidy = 500 * COIN;
-    } else if (nBestHeight >= 160001 && nBestHeight < 200001){
-      nSubsidy = 250 * COIN;
-    } else if (nBestHeight >= 200001){
-      nSubsidy = 50 * COIN;
+      nSubsidy = 60 * COIN;
+    } else if (nBestHeight >= 80001 && nBestHeight < 100001){
+      nSubsidy = 80 * COIN;
+    } else if (nBestHeight >= 100001 && nBestHeight < 125001){
+      nSubsidy = 40 * COIN;
+    } else if (nBestHeight >= 125001 && nBestHeight < 150001){
+      nSubsidy = 30 * COIN;
+    } else if (nBestHeight >= 150001){
+      nSubsidy = 9 * COIN;
     } else {
       nSubsidy = 9 * COIN;
     }
