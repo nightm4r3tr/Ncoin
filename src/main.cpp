@@ -1357,14 +1357,14 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
     int64_t nSubsidy = 0 * COIN;
 
-    if (nHeight == 1){
-      nSubsidy = 100000 * COIN;
+    if (nHeight == 1){ //premine
+      nSubsidy = 200000 * COIN;
     } else if (nHeight == 2){
-      nSubsidy = 100000 * COIN;
+      nSubsidy = 200000 * COIN;
     } else if (nHeight == 3){
-      nSubsidy = 100000 * COIN;
+      nSubsidy = 200000 * COIN;
     } else if (nHeight == 4){
-      nSubsidy = 100000 * COIN;
+      nSubsidy = 200000 * COIN;
     } else {
       nSubsidy = 0 * COIN;
     }
@@ -1377,12 +1377,14 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
 {
     int64_t nSubsidy = 0;
     
-    if(nBestHeight >= 10001 && nBestHeight < 15001){
-      nSubsidy = 30 * COIN;
+    if(nBestHeight >= 100 && nBestHeight < 10001){
+      nSubsidy = 1000 * COIN;
+    } else if(nBestHeight >= 10001 && nBestHeight < 15001){
+      nSubsidy = 100 * COIN;
     } else if (nBestHeight >= 15001 && nBestHeight < 25001){
-      nSubsidy = 40 * COIN;
+      nSubsidy = 200 * COIN;
     } else if (nBestHeight >= 25001 && nBestHeight < 40001){
-      nSubsidy = 60 * COIN;
+      nSubsidy = 300 * COIN;
     } else if (nBestHeight >= 40001 && nBestHeight < 60001){
       nSubsidy = 80 * COIN;
     } else if (nBestHeight >= 60001 && nBestHeight < 80001){
@@ -1419,7 +1421,7 @@ unsigned int GetNextTargetRequired(const CBlockIndex* pindexLast, bool fProofOfS
 		nTargetTemp = TARGET_SPACING2;
 
 	if(pindexLast->GetBlockTime() > STAKE_TIMESPAN_SWITCH_TIME)
-	nTargetTimespan = 2 * 60; // 2 minutes
+	nTargetTimespan = 60; // 2 minutes block time
 
 	if(pindexLast->GetBlockTime() > STAKE_TIMESPAN_SWITCH_TIME1)
 	nTargetTimespan = 10 * 60; // 10 minutes
