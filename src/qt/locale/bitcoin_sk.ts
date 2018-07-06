@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Baxur</source>
-        <translation>O Baxure</translation>
+        <source>About Ncoin</source>
+        <translation>O Ncoine</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Baxur&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Baxur&lt;/b&gt; verzia</translation>
+        <source>&lt;b&gt;Ncoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Ncoin&lt;/b&gt; verzia</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Baxur developers</source>
+Copyright © 2015-2017 The Ncoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Baxur developers</translation>
+Copyright © 2015-2017 The Ncoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -65,8 +65,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Baxur addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Toto sú vaše Baxur adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
+        <source>These are your Ncoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Toto sú vaše Ncoin adresy pre príjem platieb. Možno budete chcieť dať inú každému odosielateľovi, aby ste mohli sledovať, kto Vám platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -80,8 +80,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Baxur address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto Baxur adresu</translation>
+        <source>Sign a message to prove you own a Ncoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto Ncoin adresu</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -95,8 +95,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Baxur address</source>
-        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou Baxur adresou</translation>
+        <source>Verify a message to ensure it was signed with a specified Ncoin address</source>
+        <translation>Overte správu, aby ste zabezpečili, že bola podpísaná s určitou Ncoin adresou</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -263,8 +263,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+82"/>
-        <source>Baxur will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Baxur sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
+        <source>Ncoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Ncoin sa teraz zavrie aby dokončil proces zašifrovania. Nezabudnite, že zašifrovanie vašej peňaženky nemôže plne chrániť vaše mince pred krádežou malwarom, ktorý napadol váš počítač.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -357,8 +357,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Baxur</source>
-        <translation>Zobraziť informácie o Baxur</translation>
+        <source>Show information about Ncoin</source>
+        <translation>Zobraziť informácie o Ncoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -397,13 +397,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Baxur address</source>
-        <translation>Poslať mince na Baxur adresu</translation>
+        <source>Send coins to a Ncoin address</source>
+        <translation>Poslať mince na Ncoin adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Baxur</source>
-        <translation>Upraviť možnosti konfigurácie pre Baxur</translation>
+        <source>Modify configuration options for Ncoin</source>
+        <translation>Upraviť možnosti konfigurácie pre Ncoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -443,8 +443,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Baxur</source>
-        <translation>Baxur</translation>
+        <source>Ncoin</source>
+        <translation>Ncoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -453,8 +453,8 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Baxur</source>
-        <translation>&amp;O Baxur</translation>
+        <source>&amp;About Ncoin</source>
+        <translation>&amp;O Ncoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -505,13 +505,13 @@ Tento produkt obsahuje softvér vyvinutý projektom OpenSSL Project pre použiti
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Baxur client</source>
-        <translation>Baxur klient</translation>
+        <source>Ncoin client</source>
+        <translation>Ncoin klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Baxur network</source>
-        <translation><numerusform>%n aktívne spojenie s Baxur sieťov</numerusform><numerusform>%n aktívnych spojení s Baxur sieťov</numerusform><numerusform>%n aktívnych spojení s Baxur sieťou</numerusform></translation>
+        <source>%n active connection(s) to Ncoin network</source>
+        <translation><numerusform>%n aktívne spojenie s Ncoin sieťov</numerusform><numerusform>%n aktívnych spojení s Ncoin sieťov</numerusform><numerusform>%n aktívnych spojení s Ncoin sieťou</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -604,8 +604,8 @@ Adresa: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Baxur address or malformed URI parameters.</source>
-        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou Baxur adresu alebo chybnými URI parametrami.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Ncoin address or malformed URI parameters.</source>
+        <translation>URI nemožno analyzovať! Toto môže byť spôsobené neplatnou Ncoin adresu alebo chybnými URI parametrami.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -727,8 +727,8 @@ Adresa: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Baxur can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažnej chybe. Baxur už nemôže pokračovať bezpečne a bude ukončený.</translation>
+        <source>A fatal error occurred. Ncoin can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažnej chybe. Ncoin už nemôže pokračovať bezpečne a bude ukončený.</translation>
     </message>
 </context>
 <context>
@@ -1061,8 +1061,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Baxur address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; nie je platnou Baxur adresou.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Ncoin address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; nie je platnou Ncoin adresou.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1080,8 +1080,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Baxur-Qt</source>
-        <translation>Baxur-Qt</translation>
+        <source>Ncoin-Qt</source>
+        <translation>Ncoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1153,13 +1153,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Baxur after logging in to the system.</source>
-        <translation>Automaticky spustiť Baxur po prihlásení sa do systému.</translation>
+        <source>Automatically start Ncoin after logging in to the system.</source>
+        <translation>Automaticky spustiť Ncoin po prihlásení sa do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Baxur on system login</source>
-        <translation>&amp;Spustiť Baxur pri prihlásení do systému</translation>
+        <source>&amp;Start Ncoin on system login</source>
+        <translation>&amp;Spustiť Ncoin pri prihlásení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1168,8 +1168,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Baxur client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otvoriť port klienta Baxur na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
+        <source>Automatically open the Ncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otvoriť port klienta Ncoin na routeri. To funguje iba vtedy, ak váš router podporuje UPnP a je povolené.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1178,8 +1178,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Baxur network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Pripojenie k sieti Baxur cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
+        <source>Connect to the Ncoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Pripojenie k sieti Ncoin cez SOCKS proxy server (napr. pri pripojení cez Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1253,8 +1253,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Baxur.</source>
-        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní Baxur.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ncoin.</source>
+        <translation>Tu môžete nastaviť jazyk používateľského rozhrania. Toto nastavenie sa prejaví až po reštartovaní Ncoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1320,8 +1320,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Baxur.</source>
-        <translation>Toto nastavenie sa prejaví až po reštartovaní Baxur.</translation>
+        <source>This setting will take effect after restarting Ncoin.</source>
+        <translation>Toto nastavenie sa prejaví až po reštartovaní Ncoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1339,8 +1339,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Baxur network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou Baxur po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ncoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informácie môžu byť zastaralé. Vaša peňaženka sa automaticky synchronizuje so sieťou Ncoin po nadviazaní spojenia, ale tento proces nie je ešte dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1414,7 +1414,7 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
         <source>Cannot start transfer: click-to-pay handler</source>
-        <translation>Baxur sa nedá spustiť: click-to-pay handler</translation>
+        <translation>Ncoin sa nedá spustiť: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1581,8 +1581,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Baxur-Qt help message to get a list with possible Baxur command-line options.</source>
-        <translation>Zobraziť Baxur-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku Baxur.</translation>
+        <source>Show the Ncoin-Qt help message to get a list with possible Ncoin command-line options.</source>
+        <translation>Zobraziť Ncoin-Qt nápovedu k získaniu zoznamu pre možnosti  príkazového riadku Ncoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1601,13 +1601,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Baxur - Debug window</source>
-        <translation>Baxur - Ladiace okno</translation>
+        <source>Ncoin - Debug window</source>
+        <translation>Ncoin - Ladiace okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Baxur Core</source>
-        <translation>Jadro Baxur</translation>
+        <source>Ncoin Core</source>
+        <translation>Jadro Ncoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1616,8 +1616,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Baxur debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otvorte Baxur súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
+        <source>Open the Ncoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otvorte Ncoin súbor denníku ladenia z aktuálneho adresára dát. To môže trvať niekoľko sekúnd pre veľké súbory denníka.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1626,8 +1626,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Baxur RPC console.</source>
-        <translation>Vitajte v konzole Baxur RPC.</translation>
+        <source>Welcome to the Ncoin RPC console.</source>
+        <translation>Vitajte v konzole Ncoin RPC.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1735,8 +1735,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 XUR</source>
-        <translation>123.456 XUR {0.00 ?}</translation>
+        <source>0.00 NCTL</source>
+        <translation>123.456 NCTL {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1805,8 +1805,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 XUR</source>
-        <translation>123.456 XUR</translation>
+        <source>123.456 NCTL</source>
+        <translation>123.456 NCTL</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1820,8 +1820,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Baxur address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Baxur adresu (napr. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Ncoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Ncoin adresu (napr. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1920,8 +1920,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Baxur address</source>
-        <translation>UPOZORNENIE: Neplatná Baxur adresa</translation>
+        <source>WARNING: Invalid Ncoin address</source>
+        <translation>UPOZORNENIE: Neplatná Ncoin adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1994,8 +1994,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Baxur address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Baxur adresu (napr. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Ncoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Ncoin adresu (napr. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2055,8 +2055,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Baxur address</source>
-        <translation>Podpísať správu ako dôkaz, že vlastníte túto Baxur adresu</translation>
+        <source>Sign the message to prove you own this Ncoin address</source>
+        <translation>Podpísať správu ako dôkaz, že vlastníte túto Ncoin adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2087,8 +2087,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Baxur address</source>
-        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou Baxur adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Ncoin address</source>
+        <translation>Overte správu, aby ste sa ubezpečili, že bola podpísaná s danou Ncoin adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2098,8 +2098,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Baxur address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadajte Baxur adresu (napr. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Ncoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadajte Ncoin adresu (napr. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2108,8 +2108,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Baxur signature</source>
-        <translation>Zadajte Baxur podpis</translation>
+        <source>Enter Ncoin signature</source>
+        <translation>Zadajte Ncoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2687,8 +2687,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Baxur version</source>
-        <translation>Baxur verzia</translation>
+        <source>Ncoin version</source>
+        <translation>Ncoin verzia</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2697,8 +2697,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or baxurd</source>
-        <translation>Pošli príkaz na -server alebo baxurd</translation>
+        <source>Send command to -server or ncoind</source>
+        <translation>Pošli príkaz na -server alebo ncoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2717,13 +2717,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Baxur.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: Baxur.conf)</translation>
+        <source>Specify configuration file (default: Ncoin.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: Ncoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: baxurd.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: baxurd.pid)</translation>
+        <source>Specify pid file (default: ncoind.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: ncoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2740,24 +2740,24 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Baxurrpc
+rpcuser=Ncoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Baxur Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Ncoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, musíte nastaviť rpcpassword v konfiguračnom súbore:
 %s
 Doporučuje sa použiť nasledovné náhodne heslo:
-rpcuser=Baxurrpc
+rpcuser=Ncoinrpc
 rpcpassword=%s
 (toto heslo si nemusíte pamätať)
 Užívateľské meno a heslo NESMIE byť rovnaké.
 Ak súbor neexistuje, vytvorte ho s právami &quot;môže čítať iba vlastník&quot;.
 Odporúča sa tiež nastaviť &quot;alertnotify&quot;, takže budete upozornení na problémy,
-napríklad: alertnotify=echo %%s | mail -s &quot;Baxur upozornenie&quot; admin@foo.com
+napríklad: alertnotify=echo %%s | mail -s &quot;Ncoin upozornenie&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2862,8 +2862,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Baxur upozornenie&quot; admin@f
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Baxur will not work properly.</source>
-        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny Baxur nebude pracovať správne.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Ncoin will not work properly.</source>
+        <translation>Upozornenie: Skontrolujte, že dátum a čas počítača sú správne! Ak je Váš čas nesprávny Ncoin nebude pracovať správne.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3169,8 +3169,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Baxur upozornenie&quot; admin@f
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Baxur is shutting down.</source>
-        <translation>Úvodné kontrolné testy zlyhali. Baxur sa teraz zatvori.</translation>
+        <source>Initialization sanity check failed. Ncoin is shutting down.</source>
+        <translation>Úvodné kontrolné testy zlyhali. Ncoin sa teraz zatvori.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3234,13 +3234,13 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Baxur upozornenie&quot; admin@f
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Baxur</source>
-        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Baxur</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ncoin</source>
+        <translation>Chyba pri načítaní wallet.dat: Peňaženka vyžaduje novšiu verziu Ncoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Baxur to complete</source>
-        <translation>Peňaženka potrebuje byť prepísaná: reštartujte Baxur k dokončeniu</translation>
+        <source>Wallet needed to be rewritten: restart Ncoin to complete</source>
+        <translation>Peňaženka potrebuje byť prepísaná: reštartujte Ncoin k dokončeniu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3304,8 +3304,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Baxur upozornenie&quot; admin@f
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Baxur is probably already running.</source>
-        <translation>Nemôžem sa pripojiť na %s na tomto počítači. Baxur je pravdepodobne už beží.</translation>
+        <source>Unable to bind to %s on this computer. Ncoin is probably already running.</source>
+        <translation>Nemôžem sa pripojiť na %s na tomto počítači. Ncoin je pravdepodobne už beží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3344,8 +3344,8 @@ napríklad: alertnotify=echo %%s | mail -s &quot;Baxur upozornenie&quot; admin@f
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Baxur is probably already running.</source>
-        <translation>Nedá sa zamknúť dátová zložka %s. Baxur je pravdepodobne už spustený</translation>
+        <source>Cannot obtain a lock on data directory %s. Ncoin is probably already running.</source>
+        <translation>Nedá sa zamknúť dátová zložka %s. Ncoin je pravdepodobne už spustený</translation>
     </message>
     <message>
         <location line="+4"/>

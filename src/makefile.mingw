@@ -10,15 +10,15 @@ BOOST_SUFFIX?=-mgw49-mt-s-1_57
 
 INCLUDEPATHS= \
  -I"$(CURDIR)" \
- -I"d:/project/Baxur/include/boost-1_57" \
- -I"d:/project/Baxur/include/miniupnpc" \
- -I"d:/project/Baxur/include" \
- -I"d:/project/Baxur"
+ -I"d:/project/Ncoin/include/boost-1_57" \
+ -I"d:/project/Ncoin/include/miniupnpc" \
+ -I"d:/project/Ncoin/include" \
+ -I"d:/project/Ncoin"
 
 LIBPATHS= \
  -L"$(CURDIR)/leveldb" \
- -L"d:/project/Baxur/lib" \
- -L"d:/project/Baxur"
+ -L"d:/project/Ncoin/lib" \
+ -L"d:/project/Ncoin"
 
 LIBS= \
  -l leveldb \
@@ -126,7 +126,7 @@ ifeq (${USE_WALLET}, 1)
         obj/walletdb.o
 endif
 
-all: baxurd.exe
+all: ncoind.exe
 
 LIBS += $(CURDIR)/leveldb/libleveldb.a $(CURDIR)/leveldb/libmemenv.a -l shlwapi
 DEFS += $(addprefix -I,$(CURDIR)/leveldb/include)
@@ -142,12 +142,12 @@ obj/%.o: %.cpp $(HEADERS)
 obj/%.o: %.c $(HEADERS)
 	$(CXX) -c $(CFLAGS) -fpermissive -o $@ $<
 
-baxurd.exe: $(OBJS:obj/%=obj/%)
+ncoind.exe: $(OBJS:obj/%=obj/%)
 	g++ $(CFLAGS) $(LDFLAGS) -o $@ $(LIBPATHS) $^ $(LIBS)
 
 clean:
 	-rm -f obj/*.o
-	-rm -f baxurd.exe
+	-rm -f ncoind.exe
 	-rm -f obj/build.h
 	cd leveldb && TARGET_OS=NATIVE_WINDOWS $(MAKE) clean && cd ..
 

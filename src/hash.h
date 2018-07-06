@@ -16,7 +16,7 @@
 
 #include <vector>
 
-/** A hasher class for Baxur's 256-bit hash (double SHA-256). */
+/** A hasher class for Ncoin's 256-bit hash (double SHA-256). */
 class CHash256 {
 private:
     CSHA256 sha;
@@ -40,7 +40,7 @@ public:
     }
 };
 
-/** A hasher class for Baxur's 160-bit hash (SHA-256 + RIPEMD-160). */
+/** A hasher class for Ncoin's 160-bit hash (SHA-256 + RIPEMD-160). */
 class CHash160 {
 private:
     CSHA256 sha;

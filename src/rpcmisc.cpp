@@ -116,7 +116,7 @@ public:
             obj.push_back(Pair("hex", HexStr(subscript.begin(), subscript.end())));
             Array a;
             BOOST_FOREACH(const CTxDestination& addr, addresses)
-                a.push_back(CBaxurAddress(addr).ToString());
+                a.push_back(CNcoinAddress(addr).ToString());
             obj.push_back(Pair("addresses", a));
             if (whichType == TX_MULTISIG)
                 obj.push_back(Pair("sigsrequired", nRequired));
@@ -136,10 +136,10 @@ Value validateaddress(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 1)
         throw runtime_error(
-            "validateaddress <Baxuraddress>\n"
-            "Return information about <Baxuraddress>.");
+            "validateaddress <Ncoinaddress>\n"
+            "Return information about <Ncoinaddress>.");
 
-    CBaxurAddress address(params[0].get_str());
+    CNcoinAddress address(params[0].get_str());
     bool isValid = address.IsValid();
 
     Object ret;
@@ -168,8 +168,8 @@ Value validatepubkey(const Array& params, bool fHelp)
 {
     if (fHelp || !params.size() || params.size() > 2)
         throw runtime_error(
-            "validatepubkey <Baxurpubkey>\n"
-            "Return information about <Baxurpubkey>.");
+            "validatepubkey <Ncoinpubkey>\n"
+            "Return information about <Ncoinpubkey>.");
 
     std::vector<unsigned char> vchPubKey = ParseHex(params[0].get_str());
     CPubKey pubKey(vchPubKey);
@@ -178,7 +178,7 @@ Value validatepubkey(const Array& params, bool fHelp)
     bool isCompressed = pubKey.IsCompressed();
     CKeyID keyID = pubKey.GetID();
 
-    CBaxurAddress address;
+    CNcoinAddress address;
     address.Set(keyID);
 
     Object ret;
@@ -208,14 +208,14 @@ Value verifymessage(const Array& params, bool fHelp)
 {
     if (fHelp || params.size() != 3)
         throw runtime_error(
-            "verifymessage <Baxuraddress> <signature> <message>\n"
+            "verifymessage <Ncoinaddress> <signature> <message>\n"
             "Verify a signed message");
 
     string strAddress  = params[0].get_str();
     string strSign     = params[1].get_str();
     string strMessage  = params[2].get_str();
 
-    CBaxurAddress addr(strAddress);
+    CNcoinAddress addr(strAddress);
     if (!addr.IsValid())
         throw JSONRPCError(RPC_TYPE_ERROR, "Invalid address");
 

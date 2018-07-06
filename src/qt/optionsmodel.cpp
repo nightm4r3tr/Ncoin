@@ -66,13 +66,13 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    if (!settings.contains("nAnonymizeBaxurAmount"))
-        settings.setValue("nAnonymizeBaxurAmount", 1000);
-    nAnonymizeBaxurAmount = settings.value("nAnonymizeBaxurAmount").toLongLong();
+    if (!settings.contains("nAnonymizeNcoinAmount"))
+        settings.setValue("nAnonymizeNcoinAmount", 1000);
+    nAnonymizeNcoinAmount = settings.value("nAnonymizeNcoinAmount").toLongLong();
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeBaxurAmount"))
-        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeBaxurAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeNcoinAmount"))
+        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeNcoinAmount").toString().toStdString());
 
 
 
@@ -206,8 +206,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fCoinControlFeatures;
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizeBaxurAmount:
-            return QVariant(nAnonymizeBaxurAmount);
+        case AnonymizeNcoinAmount:
+            return QVariant(nAnonymizeNcoinAmount);
         case UseBlackTheme:
             return QVariant(fUseBlackTheme);
         default:
@@ -318,10 +318,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizeBaxurAmount:
-            nAnonymizeBaxurAmount = value.toInt();
-            settings.setValue("nAnonymizeBaxurAmount", nAnonymizeBaxurAmount);
-            emit AnonymizeBaxurAmountChanged(nAnonymizeBaxurAmount);
+        case AnonymizeNcoinAmount:
+            nAnonymizeNcoinAmount = value.toInt();
+            settings.setValue("nAnonymizeNcoinAmount", nAnonymizeNcoinAmount);
+            emit AnonymizeNcoinAmountChanged(nAnonymizeNcoinAmount);
             break;
         default:
             break;

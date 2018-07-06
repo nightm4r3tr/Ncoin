@@ -166,7 +166,7 @@ public:
 
 
 // -- get at the data
-class CBaxurAddress_B : public CBaxurAddress
+class CNcoinAddress_B : public CNcoinAddress
 {
 public:
     uint8_t getVersion()

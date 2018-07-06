@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Baxur</source>
-        <translation>Over Baxur</translation>
+        <source>About Ncoin</source>
+        <translation>Over Ncoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Baxur&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Baxur&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;Ncoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Ncoin&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Baxur developers</source>
+Copyright © 2015-2017 The Ncoin developers</source>
         <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
 Copyright © 2012-2014 De NovaCoin ontwikkelaars
-Copyright © 2015-2017 De Baxur ontwikkelaars</translation>
+Copyright © 2015-2017 De Ncoin ontwikkelaars</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Baxur addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn al jou Baxur adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
+        <source>These are your Ncoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn al jou Ncoin adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Baxur address</source>
-        <translation>Teken een bericht om te bewijzen dat je een Baxur adres bezit.</translation>
+        <source>Sign a message to prove you own a Ncoin address</source>
+        <translation>Teken een bericht om te bewijzen dat je een Ncoin adres bezit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Baxur address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek Baxur adres</translation>
+        <source>Verify a message to ensure it was signed with a specified Ncoin address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek Ncoin adres</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Baxur will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Baxur zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
+        <source>Ncoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Ncoin zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Baxur</source>
-        <translation>Toon informatie over Baxur</translation>
+        <source>Show information about Ncoin</source>
+        <translation>Toon informatie over Ncoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Baxur address</source>
-        <translation>Verstuur munten naar een Baxur adres</translation>
+        <source>Send coins to a Ncoin address</source>
+        <translation>Verstuur munten naar een Ncoin adres</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Baxur</source>
-        <translation>Verander configuratie opties voor Baxur</translation>
+        <source>Modify configuration options for Ncoin</source>
+        <translation>Verander configuratie opties voor Ncoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Baxur</source>
-        <translation>Baxur</translation>
+        <source>Ncoin</source>
+        <translation>Ncoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Baxur</source>
-        <translation>&amp;Over Baxur</translation>
+        <source>&amp;About Ncoin</source>
+        <translation>&amp;Over Ncoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Baxur client</source>
-        <translation>Baxur client</translation>
+        <source>Ncoin client</source>
+        <translation>Ncoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Baxur network</source>
-        <translation><numerusform>%n actieve verbinding naar Baxur netwerk</numerusform><numerusform>%n actieve verbindingen naar Baxur netwerk</numerusform></translation>
+        <source>%n active connection(s) to Ncoin network</source>
+        <translation><numerusform>%n actieve verbinding naar Ncoin netwerk</numerusform><numerusform>%n actieve verbindingen naar Ncoin netwerk</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Baxur address or malformed URI parameters.</source>
-        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig Baxur adres of incorrecte URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Ncoin address or malformed URI parameters.</source>
+        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig Ncoin adres of incorrecte URI parameters.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Baxur can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout . Baxur kan niet langer veilig doorgaan en sluit af.</translation>
+        <source>A fatal error occurred. Ncoin can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout . Ncoin kan niet langer veilig doorgaan en sluit af.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Baxur address.</source>
-        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig Baxur adres.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Ncoin address.</source>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig Ncoin adres.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Baxur-Qt</source>
-        <translation>Baxur-Qt</translation>
+        <source>Ncoin-Qt</source>
+        <translation>Ncoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Baxur after logging in to the system.</source>
-        <translation>Automatisch starten van Baxur na inloggen van het systeem.</translation>
+        <source>Automatically start Ncoin after logging in to the system.</source>
+        <translation>Automatisch starten van Ncoin na inloggen van het systeem.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Baxur on system login</source>
-        <translation>&amp;Start Baxur bij systeem aanmelding</translation>
+        <source>&amp;Start Ncoin on system login</source>
+        <translation>&amp;Start Ncoin bij systeem aanmelding</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Baxur client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>De Baxur client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
+        <source>Automatically open the Ncoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>De Ncoin client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Baxur network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbinding maken met het Baxur netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
+        <source>Connect to the Ncoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbinding maken met het Ncoin netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Baxur.</source>
-        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na Baxur opnieuw op te starten.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Ncoin.</source>
+        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na Ncoin opnieuw op te starten.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Baxur.</source>
-        <translation>Deze instelling word toegepast na een restart van Baxur.</translation>
+        <source>This setting will take effect after restarting Ncoin.</source>
+        <translation>Deze instelling word toegepast na een restart van Ncoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Baxur network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het Baxur netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ncoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het Ncoin netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1577,8 +1577,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Baxur-Qt help message to get a list with possible Baxur command-line options.</source>
-        <translation>Laat het Baxur-QT help bericht zien om een lijst te krijgen met mogelijke Baxur command-regel opties.</translation>
+        <source>Show the Ncoin-Qt help message to get a list with possible Ncoin command-line options.</source>
+        <translation>Laat het Ncoin-QT help bericht zien om een lijst te krijgen met mogelijke Ncoin command-regel opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Baxur - Debug window</source>
-        <translation>Baxur - Debugscherm</translation>
+        <source>Ncoin - Debug window</source>
+        <translation>Ncoin - Debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Baxur Core</source>
-        <translation>Baxur Kern</translation>
+        <source>Ncoin Core</source>
+        <translation>Ncoin Kern</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Baxur debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Baxur debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
+        <source>Open the Ncoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het Ncoin debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Baxur RPC console.</source>
-        <translation>Welkom bij de Baxur RPC console.</translation>
+        <source>Welcome to the Ncoin RPC console.</source>
+        <translation>Welkom bij de Ncoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 XUR</source>
-        <translation>123.456 XUR</translation>
+        <source>0.00 NCTL</source>
+        <translation>123.456 NCTL</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 XUR</source>
-        <translation>123.456 XUR</translation>
+        <source>123.456 NCTL</source>
+        <translation>123.456 NCTL</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Baxur address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een Baxur adres in (bijv. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Ncoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een Ncoin adres in (bijv. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Baxur address</source>
-        <translation>WAARSCHUWING: Ongeldig Baxur adres</translation>
+        <source>WARNING: Invalid Ncoin address</source>
+        <translation>WAARSCHUWING: Ongeldig Ncoin adres</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1990,8 +1990,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Baxur address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een Baxur adres in (bijv. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Ncoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een Ncoin adres in (bijv. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Baxur address</source>
-        <translation>Teken een bericht om te bewijzen dat je een Baxur adres bezit.</translation>
+        <source>Sign the message to prove you own this Ncoin address</source>
+        <translation>Teken een bericht om te bewijzen dat je een Ncoin adres bezit.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Baxur address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek Baxur adres</translation>
+        <source>Verify the message to ensure it was signed with the specified Ncoin address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek Ncoin adres</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Baxur address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een Baxur adres in (bijv. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Ncoin address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een Ncoin adres in (bijv. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Baxur signature</source>
-        <translation>Voer Baxur handtekening in</translation>
+        <source>Enter Ncoin signature</source>
+        <translation>Voer Ncoin handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+172"/>
-        <source>Baxur version</source>
-        <translation>Baxur versie</translation>
+        <source>Ncoin version</source>
+        <translation>Ncoin versie</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or baxurd</source>
-        <translation>Verstuur commando naar -server of baxurd</translation>
+        <source>Send command to -server or ncoind</source>
+        <translation>Verstuur commando naar -server of ncoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Baxur.conf)</source>
-        <translation>Selecteer configuratie bestand (standaard: Baxur.conf)</translation>
+        <source>Specify configuration file (default: Ncoin.conf)</source>
+        <translation>Selecteer configuratie bestand (standaard: Ncoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: baxurd.pid)</source>
-        <translation>Selecteer pid bestand (standaard: Baxur.conf)</translation>
+        <source>Specify pid file (default: ncoind.pid)</source>
+        <translation>Selecteer pid bestand (standaard: Ncoin.conf)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Baxurrpc
+rpcuser=Ncoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Baxur Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Ncoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Baxur Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="-102"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Baxur will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is Baxur zal niet goed werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Ncoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is Ncoin zal niet goed werken.</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -3150,7 +3150,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Baxur Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Baxur is shutting down.</source>
+        <source>Initialization sanity check failed. Ncoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3215,13 +3215,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Baxur Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Baxur</source>
-        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van Baxur</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Ncoin</source>
+        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van Ncoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Baxur to complete</source>
-        <translation>Portemonnee moet herschreven worden: herstart Baxur om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Ncoin to complete</source>
+        <translation>Portemonnee moet herschreven worden: herstart Ncoin om te voltooien</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3285,8 +3285,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Baxur Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. Baxur is probably already running.</source>
-        <translation>Niet mogelijk om %s op deze computer. Baxur is waarschijnlijk al geopened.</translation>
+        <source>Unable to bind to %s on this computer. Ncoin is probably already running.</source>
+        <translation>Niet mogelijk om %s op deze computer. Ncoin is waarschijnlijk al geopened.</translation>
     </message>
     <message>
         <location line="-100"/>
@@ -3325,7 +3325,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Baxur Alert&quot; admin@foo.co
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Baxur is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Ncoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

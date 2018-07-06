@@ -65,7 +65,7 @@ public:
 		nRPCPort = 22953;
 		bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 
-		const char* pszTimestamp = "Baxurcoin is officially lunching on 19/04/2018!";
+		const char* pszTimestamp = "Ncoincoin is officially lunching on 19/04/2018!";
 		std::vector<CTxIn> vin;
 		vin.resize(1);
 		vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));

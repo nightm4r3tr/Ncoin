@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to Baxur Secure Messaging from Qt view code. */
+/** Interface to Ncoin Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT

@@ -3,27 +3,27 @@
 <plist version="0.9">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>Baxur.icns</string>
+	<string>Ncoin.icns</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Baxur-Qt</string>
+	<string>Ncoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Baxur-Qt</string>
+	<string>Ncoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.Baxur.Baxur-Qt</string>
+	<string>co.Ncoin.Ncoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.Baxur.BaxurPayment</string>
+            <string>co.Ncoin.NcoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>Baxur</string>
+              <string>Ncoin</string>
             </array>
           </dict>
         </array>
