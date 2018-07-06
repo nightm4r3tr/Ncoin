@@ -78,15 +78,15 @@ public:
 		genesis.hashMerkleRoot = genesis.BuildMerkleTree();
 //printf("genesis.BuildMerkleTree = %s\n", genesis.BuildMerkleTree().ToString().c_str());
 		genesis.nVersion = 1;
-		genesis.nTime = 1524149953;
+		genesis.nTime = 1530919754;
 		genesis.nBits = 520159231;
-		genesis.nNonce = 84768616;
+		genesis.nNonce = 0;
 
 		hashGenesisBlock = genesis.GetHash();
 
 		assert(genesis.hashMerkleRoot == uint256("0x4c7501c670f3bde1496b2d19ff07e95a2f27b9aa238eb2194603fdc4290bf0db"));
 //printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-		assert(hashGenesisBlock == uint256("0xff02c90c4700d3ad85f937066c8a7c603b2b8e23f046dc9b0428cf6c297c5846"));
+		assert(hashGenesisBlock == uint256("0x"));
 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 75);
@@ -95,9 +95,7 @@ public:
 		base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
 		base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-		vSeeds.push_back(CDNSSeedData("0", "192.243.103.211"));
-		vSeeds.push_back(CDNSSeedData("1", "162.208.10.28"));
-		vSeeds.push_back(CDNSSeedData("2", "199.175.49.129"));
+		vSeeds.push_back(CDNSSeedData("0", "207.154.235.30"));
 	
 		convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
@@ -143,15 +141,15 @@ public:
 		nRPCPort = 20115;
 		strDataDir = "testnet";
 
-		genesis.nTime = 1524150252;
-                genesis.nBits = 520159231;
-		genesis.nNonce = 76845686;
+		genesis.nTime = 1530919754;
+		genesis.nBits = 520159231;
+		genesis.nNonce = 0;
 		
 		hashGenesisBlock = genesis.GetHash();
 
 		assert(genesis.hashMerkleRoot == uint256("0x4c7501c670f3bde1496b2d19ff07e95a2f27b9aa238eb2194603fdc4290bf0db"));
 //printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-		assert(hashGenesisBlock == uint256("0x90c53bab87916415fea27479d603bc47318c8420bee284123b772cc21b0f88a7"));
+		assert(hashGenesisBlock == uint256("0x"));
 
 		vFixedSeeds.clear();
 		vSeeds.clear();
