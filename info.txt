@@ -1,0 +1,2 @@
+rpcuser=Ncoinrpc
+rpcpassword=m7acsBtiChqrgV5bQjDuMsHGHfiVhzTihKLjWaK7h6U
