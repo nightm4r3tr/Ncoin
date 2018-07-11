@@ -76,7 +76,7 @@ public:
 		genesis.vtx.push_back(txNew);
 		genesis.hashPrevBlock = 0;
 		genesis.hashMerkleRoot = genesis.BuildMerkleTree();
-		printf("genesis.BuildMerkleTree = %s\n", genesis.BuildMerkleTree().ToString().c_str());
+		//printf("genesis.BuildMerkleTree = %s\n", genesis.BuildMerkleTree().ToString().c_str());
 		genesis.nVersion = 1;
 		genesis.nTime = 1530919754;
 		genesis.nBits = 520159231;
@@ -84,9 +84,9 @@ public:
 
 		hashGenesisBlock = genesis.GetHash();
 
-		assert(genesis.hashMerkleRoot == uint256("0x"));
+		assert(genesis.hashMerkleRoot == uint256("0xcf351c046709ed65d4cf21e6e7eb2f0b4931bf9725175a51270e7ae2fbd2893a"));
 		printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-		assert(hashGenesisBlock == uint256("0x"));
+		assert(hashGenesisBlock == uint256("0x9917d28093b84c1fd21826c3b7923207ed490d4c0cbd4338c03bdc48709bb25e"));
 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 75);
@@ -147,9 +147,9 @@ public:
 		
 		hashGenesisBlock = genesis.GetHash();
 
-		assert(genesis.hashMerkleRoot == uint256("0x"));
+		assert(genesis.hashMerkleRoot == uint256("0xcf351c046709ed65d4cf21e6e7eb2f0b4931bf9725175a51270e7ae2fbd2893a"));
 //printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-		assert(hashGenesisBlock == uint256("0x"));
+		assert(hashGenesisBlock == uint256("0x9917d28093b84c1fd21826c3b7923207ed490d4c0cbd4338c03bdc48709bb25e"));
 
 		vFixedSeeds.clear();
 		vSeeds.clear();
