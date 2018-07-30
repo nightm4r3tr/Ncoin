@@ -84,9 +84,9 @@ public:
 
 		hashGenesisBlock = genesis.GetHash();
 
-		assert(genesis.hashMerkleRoot == uint256("0xcf351c046709ed65d4cf21e6e7eb2f0b4931bf9725175a51270e7ae2fbd2893a"));
+		assert(genesis.hashMerkleRoot == uint256("0x"));
 		printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
-		assert(hashGenesisBlock == uint256("0x9917d28093b84c1fd21826c3b7923207ed490d4c0cbd4338c03bdc48709bb25e"));
+		assert(hashGenesisBlock == uint256("0x"));
 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 75);
@@ -95,7 +95,7 @@ public:
 		base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
 		base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-		vSeeds.push_back(CDNSSeedData("0", "192.168.0.19"));
+		vSeeds.push_back(CDNSSeedData("0", "207.154.235.30"));
 	
 		convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
