@@ -56,16 +56,16 @@ public:
 		// The message start string is designed to be unlikely to occur in normal data.
 		// The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 		// a large 4-byte int at any alignment.
-		pchMessageStart[0] = 0xb5;
-		pchMessageStart[1] = 0xf4;
-		pchMessageStart[2] = 0x97;
-		pchMessageStart[3] = 0xd5;
-		vAlertPubKey = ParseHex("04df90ee10b08f29bd3a19107993e456f128f115fa71d7fff13cc0dfa76a2a76860a060371f9abd139cef35c6c98fa97e52adb7dd6d0b5d3ecc70cceb8e14fc5b6");
+		pchMessageStart[0] = 0xc6;
+		pchMessageStart[1] = 0xf5;
+		pchMessageStart[2] = 0xa1;
+		pchMessageStart[3] = 0xe6;
+		vAlertPubKey = ParseHex("123490ee10b08f29bd3a19107993e456f128f115fa71d7fff13cc0dfa76a2a76860a060371f9abd139cef35c6c98fa97e52adb7dd6d0b5d3ecc70cceb8e14fc5b6");
 		nDefaultPort = 22954;
 		nRPCPort = 22953;
 		bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 
-		const char* pszTimestamp = "Ncoincoin is officially lunching on 19/04/2018!";
+		const char* pszTimestamp = "Ncoincoin is officially lunching on 31/07/2018!";
 		std::vector<CTxIn> vin;
 		vin.resize(1);
 		vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
@@ -78,7 +78,7 @@ public:
 		genesis.hashMerkleRoot = genesis.BuildMerkleTree();
 		printf("genesis.BuildMerkleTree = %s\n", genesis.BuildMerkleTree().ToString().c_str());
 		genesis.nVersion = 1;
-		genesis.nTime = 1530919754;
+		genesis.nTime = 1533044334;
 		genesis.nBits = 520159231;
 		genesis.nNonce = 0;
 
@@ -87,6 +87,9 @@ public:
 		assert(genesis.hashMerkleRoot == uint256("0x"));
 		printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
 		assert(hashGenesisBlock == uint256("0x"));
+		//debug
+		printf("genesis.nTime = %s\n", genesis.nTime().ToString().c_str());
+		printf("genesis.nNonce = %s\n", genesis.nNonce().ToString().c_str());
 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 75);
@@ -141,7 +144,7 @@ public:
 		nRPCPort = 20115;
 		strDataDir = "testnet";
 
-		genesis.nTime = 1530919754;
+		genesis.nTime = 1533044334;
 		genesis.nBits = 520159231;
 		genesis.nNonce = 0;
 		

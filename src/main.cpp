@@ -1404,7 +1404,7 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
     return nSubsidy + nFees;
 }
 
-static int64_t nTargetTimespan = 30 * 60;  // 30 mins
+static int64_t nTargetTimespan = 15 * 60;  // 30 mins
 
 // ppcoin: find last block index up to pindex
 const CBlockIndex* GetLastBlockIndex(const CBlockIndex* pindex, bool fProofOfStake)
