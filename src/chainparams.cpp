@@ -88,9 +88,9 @@ public:
 		printf("genesis.GetHash = %s\n", genesis.GetHash().ToString().c_str());
 		assert(hashGenesisBlock == uint256("0x"));
 		//debug
-		printf("genesis.nTime = %s\n", genesis.nTime().ToString().c_str());
-		printf("genesis.nNonce = %s\n", genesis.nNonce().ToString().c_str());
-
+		//printf("genesis.nTime = %s\n", genesis.nTime().ToString().c_str());
+		//printf("genesis.nNonce = %s\n", genesis.nNonce().ToString().c_str());
+        
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 75);
 		base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 130);
